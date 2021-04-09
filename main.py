@@ -5,7 +5,7 @@ def Main():
     global root
 
     root = Tk()
-    root.title("Stopwatch made by @StudyMart")
+    root.title("Stopwatch made by Thuaha Hadi")
     width = 500
     height = 200
     screen_width = root.winfo_screenwidth()
@@ -27,7 +27,7 @@ def Main():
     Reset.pack(side=LEFT)
     Exit = Button(Bottom, text='CLOSE', command=stopWatch.Exit, width=10, height=3)
     Exit.pack(side=LEFT)
-    Title = Label(Top, text="StopWatch @studymart", font=("arial", 24), fg="white", bg="black")
+    Title = Label(Top, text="StopWatch - Thuaha Hadi", font=("arial", 24), fg="white", bg="black")
     Title.pack(fill=X)
     root.config(bg="black")
     root.mainloop()
